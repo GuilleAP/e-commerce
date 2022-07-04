@@ -1,0 +1,69 @@
+SUPERMERCAT ECOLÒGIC:
+    1. Fruita
+        - Poma
+        - Pera 
+        - Taronja
+        - Plàtan
+        - Pinya
+
+    2. Verdura
+        - Mongetes
+        - Coliflor
+        - Tomàquets
+        - Pebrot
+        - Patates
+
+    3. Làctics
+        - Formatge
+        - Llet
+        - Yogurt
+        - Manteca
+    4. Begudes
+        - Aigua
+        - Cervesa
+        - Vi
+
+    5. Higiene
+        - Sabó
+        - Perfum
+        - Xampú
+        - Pasta de dents
+        - Crema facial
+
+    6. Panaderia
+        - Xusco
+        - Baguette
+        - Croissant
+        - Pa de motlle
+        - Palmera 
+
+--------------------------------------------------------------------------------------------------------------
+
+BASE DE DADES 
+
+PRODUCTE:
+    id_producte
+    nom_producte
+    preu_prducte
+    id_categoria
+
+CATEGORIA:
+    id_categoria
+    nom_categoria
+
+COMANDA:
+    id_comanda
+
+USUARI:
+    id_usuari
+    nom_usuari
+    DNI
+    email
+    teléfon
+
+LINEA_COMANDA:
+    id 
+    preu 
+    id_comanda
+    id_producte
+    
